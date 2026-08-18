@@ -152,7 +152,7 @@ header .wrapper .nav .navigation-links .link span.link-category i{
     font-size: var(--fs-sm);
 }
 header .wrapper .nav .navigation-links .link .dropdown{
-    width: 630px;
+    width: 710px;
     background: var(--clr-white);
     box-shadow: var(--shadow-md);
     border: var(--faded-border);
@@ -194,7 +194,8 @@ header .wrapper .nav .navigation-links .link .dropdown .services .service .servi
     opacity: .8;
 }
 header .wrapper .nav .navigation-links .link .dropdown .services .service .service-body{
-
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
 }
 header .wrapper .nav .navigation-links .link .dropdown .services .service .service-body .service-link{
     display: flex;
@@ -229,6 +230,43 @@ header .wrapper .nav .navigation-links .link .dropdown .dropdown-links a.dropdow
 header .wrapper .nav .navigation-links .link .dropdown .dropdown-links a.dropdown-link img{
     border-radius: var(--br-1);
 }
+
+/* support link wih dropdown */
+header .wrapper .nav .navigation-links .link .dropdown .dropdown-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+header .wrapper .nav .navigation-links .link .dropdown .dropdown-wrapper .support-service .support-links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}   
+header .wrapper .nav .navigation-links .link .dropdown .dropdown-wrapper .support-service .support-links .support-link{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-regular);
+    color: var(--text-clr-6);
+}
+header .wrapper .nav .navigation-links .link .dropdown .dropdown-wrapper .support-service .support-links .support-link i{
+    font-size: var(--fs-rg);
+    padding-top: var(--padding1);
+}
+header .wrapper .nav .navigation-links .link .dropdown .dropdown-wrapper .support-service .support-links .support-link .support-link-description{
+    font-weight: var(--fw-regular);
+    font-family: var(--ff-primary);
+    color: var(--text-clr-6) ;
+}
+header .wrapper .nav .navigation-links .link .dropdown .dropdown-wrapper .support-service .support-links .support-link .support-link-description span{
+    
+}
+
+
+
+
+/* support link with dropdown */
 .cta-link1 a{
     text-decoration: none;
     color: var(--clr-white);
