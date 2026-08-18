@@ -1,3 +1,11 @@
+@import url('reset.css');
+@import url('utility.css');
+
+*{
+    outline: 1px solid red !important;
+}
+
+
 /* Body */
 body{
     background: linear-gradient(180deg, var(--background-clr)40%, var(--clr-white)50%, var(--background-clr));
@@ -8,7 +16,7 @@ body{
 
 /* Main */
 main{
-    padding-inline: 2rem;
+    /* padding-inline: 2rem; */
     margin-inline: auto;
 }
 

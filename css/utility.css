@@ -218,7 +218,7 @@ header .wrapper .nav .navigation-links .link .dropdown .services .service .servi
 }
 header .wrapper .nav .navigation-links .link .dropdown .dropdown-links{
     display: grid;
-    grid-template-columns: repeat(3, 170px);
+    grid-template-columns: repeat(3, 1fr);
     place-content: center;
     gap: 1rem;
 }

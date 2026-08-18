@@ -1,0 +1,25 @@
+
+/* 1. Laptops / Small Desktops (Screens smaller than 1200px) */
+@media (max-width: 1199.98px) {
+    /* Adjust large hero text or tighten wide margins here */
+    header{
+        margin: 1rem 3rem;
+    }
+  }
+  
+  /* 2. Tablets in Landscape (Screens smaller than 992px) */
+  @media (max-width: 991.98px) {
+    /* Good place to change 4-column grids into 2-column grids */
+  }
+  
+  /* 3. Tablets in Portrait (Screens smaller than 768px) */
+  @media (max-width: 767.98px) {
+    /* Often where sidebars are hidden or forced below the main content */
+  }
+  
+  /* 4. Mobile Devices (Screens smaller than 576px) */
+  @media (max-width: 575.98px) {
+    /* Force columns to 100% width (single column layout) */
+    /* Reduce font sizes and padding for small screens */
+  }
+  
