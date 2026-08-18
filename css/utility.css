@@ -235,6 +235,7 @@ header .wrapper .nav .navigation-links .link .dropdown .dropdown-links a.dropdow
 header .wrapper .nav .navigation-links .link .dropdown .dropdown-wrapper{
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 header .wrapper .nav .navigation-links .link .dropdown .dropdown-wrapper .support-service .support-links{
     display: grid;
@@ -260,7 +261,9 @@ header .wrapper .nav .navigation-links .link .dropdown .dropdown-wrapper .suppor
     color: var(--text-clr-6) ;
 }
 header .wrapper .nav .navigation-links .link .dropdown .dropdown-wrapper .support-service .support-links .support-link .support-link-description span{
-    
+    font-weight: var(--fw-regular);
+    font-family: var(--ff-primary);
+    color: var(--text-clr-2) ;
 }
 
 
