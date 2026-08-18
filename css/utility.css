@@ -184,6 +184,7 @@ header .wrapper .nav .navigation-links .link .dropdown .dropdown-heading{
 }
 header .wrapper .nav .navigation-links .link .dropdown .services{
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     font-family: var(--ff-primary);
     color: var(--text-clr-1)
