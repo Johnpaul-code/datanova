@@ -1,0 +1,93 @@
+/* Body */
+body{
+    background: linear-gradient(180deg, var(--background-clr)40%, var(--clr-white)50%, var(--background-clr));
+    font-family: var(--ff-secondary);
+    position: relative;
+}
+/* Body */
+
+/* Main */
+main{
+    padding-inline: 2rem;
+    margin-inline: auto;
+}
+
+/* Hero section */
+main .hero-section{
+    
+}
+main .hero-section .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin: 5rem auto;
+    width: 70%;
+}
+main .hero-section .wrapper .cta-link2{
+    background: var(--clr-white);
+    border-radius: var(--br-3);
+    padding-right: var(--padding1);
+    padding-top: var(--padding1);
+    padding-bottom: var(--padding1);
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    box-shadow: var(--shadow-md);
+}
+main .hero-section .wrapper .cta-link2:hover a span.cta{
+    text-decoration: underline;
+}
+
+main .hero-section .wrapper .cta-link2 a{
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-clr-2);
+}
+main .hero-section .wrapper .cta-link2 a span.intro{
+    background: var(--primary-clr-100);
+    padding: 10px var(--padding3);
+    border-radius: var(--br-3);
+    color: var(--clr-white);
+}
+main .hero-section .wrapper .cta-link2:hover a span.intro{
+    text-decoration: dotted;
+}
+
+main .hero-section .wrapper .cta-link2 a .fa-chevron-right{
+    font-size: var(--fs-sml);
+    transition: transform 200ms ease;
+}
+main .hero-section .wrapper .cta-link2:hover .fa-chevron-right{
+    transform: translateX(3px);
+}
+
+
+main .hero-section .wrapper .hero-heading h1 {
+    margin: 2rem 0;
+    font-weight: var(--fw-regular);
+    word-spacing: 1px;
+    line-height: 4rem;
+    text-justify: distribute-all-lines;
+    text-align: center;
+    text-wrap: wrap;
+}
+main .hero-section .wrapper .hero-text{
+    color: var(--text-clr-1);
+    font-weight: var(--fw-regular);
+    font-family: var(--ff-primary);
+    text-wrap: wrap;
+    text-align: center;
+    text-justify: distribute;
+    width: 70ch;
+}
+main .hero-section .wrapper .cta-link3{
+    font-family: var(--ff-primary);
+    display: flex;
+    gap: 1rem;
+}
+main .hero-section .wrapper .cta-link3 a{
+    text-decoration: none;
+    color: var(--text);
+}
+/* Main */
