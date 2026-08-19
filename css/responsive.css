@@ -1,10 +1,11 @@
 
 /* 1. Laptops / Small Desktops (Screens smaller than 1200px) */
-@media (max-width: 1199.98px) {
+@media (max-width: 1299.98px) {
     /* Adjust large hero text or tighten wide margins here */
     header{
         margin: 1rem 3rem;
     }
+    
   }
   
   /* 2. Tablets in Landscape (Screens smaller than 992px) */

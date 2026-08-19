@@ -8,20 +8,6 @@ navigationLinks.forEach((link)=>{
     link.addEventListener('click', () => {
         dropdown.classList.toggle('open')
     })
-
-
-    // // 3. Click anywhere outside to cole immediately
-    // document.addEventListener('click', (e) => {
-    //     navigationLinks.forEach((link) => {
-    //         const dropdown = link.querySelector('.dropdown')
-    //         if(!dropdown) return
-
-    //         // if click is not inside this link or its dropdown
-    //         if(!link.contains(e.target)){
-    //             dropdown.style.display = 'none'
-    //         }
-    //     })
-    // })
 })
 
 

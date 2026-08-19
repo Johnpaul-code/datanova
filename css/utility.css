@@ -34,6 +34,7 @@
     --fw-bold: 900;
 
     --padding1: 8px;
+    --padding1x: 10px;
     --padding2: 24px;
     --padding3: 16px;
     --padding4: 32px;
@@ -56,15 +57,15 @@
     --faded-border: 1px solid rgba(235, 235, 235, 0.822);
 }
 .heading1{
-    font-size: 4.5rem;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
     color: var(--text-clr-1);
 }
 .heading2{
-    font-size: 3rem;
+    font-size: clamp(2rem, 3.5vw, 3rem);
     color: var(--text-clr-1);
 }
 .heading3{
-    font-size: 1.875rem;
+    font-size: clamp(1.5rem, 2.5vw, 1.875rem);
     color: var(--text-clr-1);
 }
 .heading4{

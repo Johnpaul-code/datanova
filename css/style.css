@@ -70,30 +70,52 @@ main .hero-section .wrapper .cta-link2:hover .fa-chevron-right{
 
 
 main .hero-section .wrapper .hero-heading h1 {
-    margin: 2rem 0;
+    margin: 1.5rem auto;
     font-weight: var(--fw-regular);
-    word-spacing: 1px;
-    line-height: 4rem;
-    text-justify: distribute-all-lines;
+    letter-spacing: 1px;
+    line-height: 1.05;
     text-align: center;
-    text-wrap: wrap;
+    text-wrap: balance;
 }
 main .hero-section .wrapper .hero-text{
     color: var(--text-clr-1);
     font-weight: var(--fw-regular);
     font-family: var(--ff-primary);
-    text-wrap: wrap;
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    line-height: 1.7;
+    text-wrap: pretty;
     text-align: center;
-    text-justify: distribute;
-    width: 70ch;
+    width: min(100%, 700px);
+    margin-inline: auto;
 }
-main .hero-section .wrapper .cta-link3{
+main .hero-section .wrapper .cta-links{
     font-family: var(--ff-primary);
     display: flex;
-    gap: 1rem;
+    gap: .5rem;
+    flex-wrap: wrap;
+    margin: 1rem;
 }
-main .hero-section .wrapper .cta-link3 a{
+main .hero-section .wrapper .cta-links .cta-link3{
     text-decoration: none;
-    color: var(--text);
+    padding: var(--padding1x) var(--padding2);
+    font-size: var(--fs-rg);
+    font-family: var(--ff-primary);
+    border-radius: var(--br-2);
+}
+main .hero-section .wrapper .cta-links .free{
+    background: var(--clr-white);
+    border: 2px solid var(--primary-clr-100);
+    color: var(--text-clr-2);
+}
+main .hero-section .wrapper .cta-links .free:hover{
+    color: var(--clr-white);
+    background: var(--primary-clr-100);
+}       
+main .hero-section .wrapper .cta-links .pricing{
+    background: var(--primary-clr-300);
+    color: var(--clr-white);
+}
+main .hero-section .wrapper .cta-links .pricing:hover{
+    background: var(--primary-clr-100);
 }
 /* Main */
