@@ -6,7 +6,7 @@
 
 /* Body */
 body{
-    background: linear-gradient(180deg, var(--background-clr)40%, var(--clr-white)50%, var(--background-clr));
+    background: linear-gradient(to bottom, var(--background-clr)0%, var(--background-clr)15%, var(--clr-white)30%, var(--clr-white)80%, var(--background-clr)100%);
     font-family: var(--ff-secondary);
     position: relative;
 }
@@ -118,4 +118,43 @@ main .hero-section .wrapper .cta-links .pricing{
 main .hero-section .wrapper .cta-links .pricing:hover{
     background: var(--primary-clr-100);
 }
+/* Hero section */
+
+/* Video Showcase section */
+main .video-showcase{
+    width: 100%;
+    padding: var(--padding6) 0px 0px;
+    position: relative;
+}
+main .video-showcase::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    background: linear-gradient(to bottom, transparent, white);
+    pointer-events: none;
+}
+main .video-showcase .video-showcase-wrapper{
+    width: min(100%, 1170px);
+    margin-inline: auto;
+}
+main .video-showcase .video-showcase-wrapper video{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--br-3);
+}
+main .video-showcase .video-showcase-wrapper img{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 10rem;
+    left: 1rem;
+}
+
+/* Video Showcase section */
+
 /* Main */
