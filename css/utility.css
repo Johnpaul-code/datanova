@@ -278,6 +278,21 @@ header .wrapper .nav .navigation-links .link .dropdown .dropdown-wrapper .suppor
 .cta-link1 a:hover{
     background: var(--primary-clr-100);
 }
+
+
+section{
+    width: 100%;
+    padding: 80px, 5%;
+    box-sizing: border-box;
+}
+section .section-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
 /* Header */
 
 

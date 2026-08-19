@@ -5,10 +5,11 @@ navigationLinks.forEach((link)=>{
     
 
     // 1. Show when entering link or dropdown
-    link.addEventListener('click', () => {
+    link.addEventListener('click', (e) => {
         dropdown.classList.toggle('open')
     })
 })
+
 
 
 
