@@ -265,8 +265,8 @@ main .video-showcase .video-showcase-wrapper img{
     margin-top: .8rem;
     opacity: .8;
 }
-.analytics-suite-grid .grid-container .left-bottom .list li{
-    
+.analytics-suite-grid .grid-container .left-bottom .list li::marker{
+    color: var(--background-clr);
 }
 .analytics-suite-grid .grid-container .right{
     grid-row: 1 / 3;
